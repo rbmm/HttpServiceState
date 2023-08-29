@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HTTPServer", "HTTPServer\HT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HttpServiceState", "HttpServiceState\HttpServiceState.vcxproj", "{7451A70C-B2B1-3CB8-A28E-49047CB275E1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LDAPs", "LDAPs\LDAPs.vcxproj", "{8E98E455-7EE8-4B64-A32D-C90D621684D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,11 @@ Global
 		{7451A70C-B2B1-3CB8-A28E-49047CB275E1}.Release|x64.Build.0 = Release|x64
 		{7451A70C-B2B1-3CB8-A28E-49047CB275E1}.Release|x86.ActiveCfg = Release|Win32
 		{7451A70C-B2B1-3CB8-A28E-49047CB275E1}.Release|x86.Build.0 = Release|Win32
+		{8E98E455-7EE8-4B64-A32D-C90D621684D2}.Debug|x64.ActiveCfg = Release|x64
+		{8E98E455-7EE8-4B64-A32D-C90D621684D2}.Debug|x86.ActiveCfg = Release|x64
+		{8E98E455-7EE8-4B64-A32D-C90D621684D2}.Release|x64.ActiveCfg = Release|x64
+		{8E98E455-7EE8-4B64-A32D-C90D621684D2}.Release|x64.Build.0 = Release|x64
+		{8E98E455-7EE8-4B64-A32D-C90D621684D2}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
