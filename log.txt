@@ -1,0 +1,27 @@
+Queue: cae5ebf800000001
+Active
+Version 2.0
+Name: "Request[#448]"
+        SD= O:BAD:(A;;FA;;;BA)(A;;FA;;;SY)(A;;0x1200a9;;;S-1-5-5-0-260789)
+ActiveProcessCount: 1
+0000000000000448 < \Device\HarddiskVolume9\Users\admin\Documents\GitHub\HttpServiceState\test-tool\HTTPServer.exe >
+win32= < C:\Users\Harry\Documents\GitHub\HttpServiceState\test-tool\HTTPServer.exe >
+Session: ff00000210000001
+Active
+Version 2.0
+LogFormat: W3C
+Log: "C:\WINDOWS\temp"
+        Group: fe00000220000001
+        Queue: cae5ebf800000001
+        Active
+                Queue: "Request[#448]"
+        RegisteredUrls:
+                HTTP://127.0.0.1:2222:127.0.0.1/BBBB/
+                HTTP://127.0.0.1:1111:127.0.0.1/AAAA/
+        Group: fd00000220000001
+        Queue: cae5ebf800000001
+        Active
+                Queue: "Request[#448]"
+        RegisteredUrls:
+                HTTP://127.0.0.1:4310:127.0.0.1/STOP/
+The operation completed successfully.
